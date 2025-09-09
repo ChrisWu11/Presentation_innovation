@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="https://camera-chl.s3.bitiful.net/480520.jpg?no-wait=on" />
+    <link
+      rel="icon"
+      href="https://camera-chl.s3.bitiful.net/480520.jpg?no-wait=on"
+    />
     <title>Robotics in Chip Testing and Sorting</title>
     <link
       rel="stylesheet"
@@ -22,6 +25,7 @@
         color: #fff;
         overflow-x: hidden;
         line-height: 1.6;
+        position: relative;
       }
 
       .container {
@@ -324,6 +328,18 @@
         animation: fadeIn 1s ease forwards;
       }
 
+      .footer{
+        position: absolute;
+        width: fit-content;
+        z-index: 10;
+        bottom: 5rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
       /* 响应式设计 */
       @media (max-width: 768px) {
         .main-title {
@@ -457,10 +473,10 @@
           <div class="slide-content">
             <ul>
               <li>
-                Research Question：What circumstances precipitated machine vision
-                innovation in semiconductor manufacturing, and how effective is
-                this technological advancement in resolving chip sorting
-                challenges?
+                Research Question：What circumstances precipitated machine
+                vision innovation in semiconductor manufacturing, and how
+                effective is this technological advancement in resolving chip
+                sorting challenges?
               </li>
               <li>
                 Focus：Examining the historical foundations that led to the
@@ -690,7 +706,7 @@
             </ul>
           </div>
           <div class="slide-image">
-            <img src="./static/p6.jpg" alt="Sorting Process">
+            <img src="./static/p6.jpg" alt="Sorting Process" />
           </div>
         </div>
 
@@ -927,6 +943,11 @@
         </div>
       </div>
     </section>
+
+    <div class="footer">
+      <p><i class="fas fa-graduation-cap"></i> Presentation - Robotics in Chip Testing and Sorting</p>
+      <p>@author: Chris Wu ~</p>
+    </div>
 
     <script>
       // 滚动动画和导航点高亮
